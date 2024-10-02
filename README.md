@@ -9,11 +9,11 @@ classDiagram
     -int red
     -int green
     -int blue
-    +accendi()
-    +spegni()
-    +setLuminosita(lum:int)
-    +aumentaLuminosita()
-    +riduciLuminosita()
+    +accendi() : void
+    +spegni() : void
+    +setLuminosita(lum:int) : void
+    +aumentaLuminosita() : void
+    +riduciLuminosita() : void
     }
 ```
 
