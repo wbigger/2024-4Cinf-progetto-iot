@@ -37,7 +37,7 @@ classDiagram
     -String traccia
     +accendi() void
     +spegni() void
-    +impostaTraccia(traccia : String) void
+    +setTraccia(traccia : String) void
     +riproduci() void
     +mettiPausa() void
     +setVolume(vol : int) void
